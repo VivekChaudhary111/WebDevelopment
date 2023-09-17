@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>contact_form</title>
+    </head>
+    <body>
+        <h2>Contact Form</h2>
+        <form action="contact_form.php" method="post">
+          Name:<input type="text" name="name" required> 
+          <br>
+          Gender: Male<input type="radio" name="gender" required>
+          Female<input type="radio" name="gender">
+          <br>
+          Date of Birth:<input type="date" name="DoB" required>
+          <br>
+          Address:<input type="text" maxlength="100" name="address" required>
+          <br>
+          Phone No.:<input type="text"   name="phone_no" maxlength="10" required>
+          <br> 
+         Write something about yourself briefly:
+              <textarea name="about" rows="5" cols="15" > </textarea>
+            <br>
+            <input type="submit" name="Submit">  
+            
+            <input type="reset" name="Reset">
+        </form>
+    </body>
+</html>
